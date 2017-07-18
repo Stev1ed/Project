@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rel</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= link_to "Customers", root_path %>
+    <%= link_to "Order Items", root_path %>
+    <%= link_to "Orders", root_path %>
+    <%= link_to "Stock", root_path %>
+    <%= link_to "Suppliers", root_path %>
+    
+    <br>
+    <br> 
+    <%= yield %>
+  </body>
+</html>

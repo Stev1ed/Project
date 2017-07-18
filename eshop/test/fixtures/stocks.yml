@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  StockID: 1
+  CostPrice: 9.99
+  Item: MyString
+  SupplierID: 1
+
+two:
+  StockID: 1
+  CostPrice: 9.99
+  Item: MyString
+  SupplierID: 1
